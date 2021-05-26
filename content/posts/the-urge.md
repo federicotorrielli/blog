@@ -10,7 +10,7 @@ No, seriously. I know people do all sorts of things while angry, sad or frustrat
 Of course, I'm no different from any other human on this planet so I have to *throw out* all these negative emotions.
 The way I like to express my feelings are different.. *kinda*. So, when I feel sad, I open up my terminal and type:
 
-```bash
+```
 pacman -Syyu
 ```
 
