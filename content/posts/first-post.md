@@ -4,6 +4,11 @@ date: 2021-05-26T11:39:23+02:00
 draft: false
 ---
 
-This is a test post to see if everything works.
+Hello! This is my blog.
+I will post here my personal views about tech, politics, etc.
 
-Why the heck are titles blue?
+Maybe, just maybe, you will see my projects and dreams here.
+
+Have a good look through the site!
+
+> Federico Torrielli
