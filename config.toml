@@ -16,7 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 [params]
   sitename = "Federico Torrielli - Blog"
   highlightjs = true
-  highlightjslanguages = ["python", "stan"]
+  highlightjslanguages = ["python3", "stan", "bash"]
   uselatex = true
   disableWebFonts = false
   progressively = false
