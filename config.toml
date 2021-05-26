@@ -1,0 +1,4 @@
+baseURL = "https://federicotorrielli.github.io/blog"
+languageCode = "en-us"
+title = "My Blog"
+theme = "tanka"
