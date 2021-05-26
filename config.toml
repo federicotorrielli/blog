@@ -1,4 +1,50 @@
-baseURL = "https://federicotorrielli.github.io/blog"
-languageCode = "en-us"
-title = "My Blog - Federico Torrielli"
+baseurl = "https://federicotorrielli.github.io/blog"
+title = "Federico Torrielli - Blog"
+author = "Federico Torrielli"
+canonifyurls = true
+languagecode = "en"
 theme = "tanka"
+
+enableEmoji = true
+hasCJKLanguage = false
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
+[params]
+  sitename = "Federico Torrielli - Blog"
+#faviconfile = "images/favicon.png"
+  highlightjs = true
+  highlightjslanguages = ["python", "stan", "java"]
+  uselatex = true
+  progressively = false
+# commentsrepo = "user/repo"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.primary]]
+    name = "Home"
+    url = "/"
+    weight = 1
+#[[menu.primary]]
+#    name = "About"
+#    url = "/about/"
+#    weight = 2
+[[menu.primary]]
+    name = "GitHub"
+    url = "https://github.com/federicotorrielli"
+    weight = 2
+[[menu.primary]]
+    name = "Site"
+    url = "https://evilscript.altervista.org"
+    weight = 3
+[[menu.primary]]
+    name = "RSS Subscribe"
+    url = "/index.xml"
+    weight = 4
+
