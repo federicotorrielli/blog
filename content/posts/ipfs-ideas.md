@@ -1,3 +1,8 @@
+---
+title: IPFS ideas for InstantOS
+draft: false
+---
+
 # IPFS Ideas for InstantOS
 
 > by Federico "EvilScript" Torrielli
