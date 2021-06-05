@@ -68,4 +68,4 @@ Of course not, but here's the interesting part. You can use IPFS for everything,
 
 There is a broad *how-to* [here](https://docs.ipfs.io/how-to/) that explains clearly how to implement lots of things I just wrote about.
 
-Hope you have a great day.
+You can find this article in LaTeX-PDF on IPFS [here](https://ipfs.io/ipfs/QmfFQwBp1HB6KiRmgbYQnCfVJKJ93jmsK7Nuq9LwP1E93U?filename=ipfs-ideas.pdf)!
