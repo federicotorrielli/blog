@@ -1,9 +1,8 @@
 ---
 title: IPFS ideas for InstantOS
+date: 2021-06-05
 draft: false
 ---
-
-# IPFS Ideas for InstantOS
 
 > by Federico "EvilScript" Torrielli
 
