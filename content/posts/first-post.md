@@ -10,5 +10,3 @@ I will post here my personal views about tech, politics, etc.
 Maybe, just maybe, you will see my projects and dreams here.
 
 Have a good look through the site!
-
-> Federico Torrielli
