@@ -1,0 +1,154 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=HandheldFriendly content="True">
+<meta name=MobileOptimized content="320">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=referrer content="no-referrer">
+<meta name=description content>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel=stylesheet media=print type=text/css onload="this.media='all'">
+<title>
+Is Your Password Really That Strong?
+</title>
+<link rel=canonical href=https://federicotorrielli.github.io/blog/posts/is-your-password-really-that-strong/>
+<style>*{border:0;font:inherit;font-size:100%;vertical-align:baseline;margin:0;padding:0;color:#000;text-decoration-skip:ink}body{font-family:open sans,myriad pro,Myriad,sans-serif;font-size:17px;line-height:160%;color:#1d1313;max-width:700px;margin:auto}p{margin:20px 0}a img{border:none}img{margin:10px auto;max-width:100%;display:block}.left-justify{float:left}.right-justify{float:right}pre,code{font:12px Consolas,liberation mono,Menlo,Courier,monospace;background-color:#f7f7f7}code{font-size:12px;padding:4px}pre{margin-top:0;margin-bottom:16px;word-wrap:normal;padding:16px;overflow:auto;font-size:85%;line-height:1.45}pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}pre code{display:inline;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}pre code::before,pre code::after{content:normal}em,q,em,dfn{font-style:italic}.sans,html .gist .gist-file .gist-meta{font-family:open sans,myriad pro,Myriad,sans-serif}.mono,pre,code,tt,p code,li code{font-family:Menlo,Monaco,andale mono,lucida console,courier new,monospace}.heading,.serif,h1,h2,h3{font-family:old standard tt,serif}strong{font-weight:600}q:before{content:"\201C"}q:after{content:"\201D"}del,s{text-decoration:line-through}blockquote{font-family:old standard tt,serif;text-align:center;padding:50px}blockquote p{display:inline-block;font-style:italic}blockquote:before,blockquote:after{font-family:old standard tt,serif;content:'\201C';font-size:35px;color:#403c3b}blockquote:after{content:'\201D'}hr{width:40%;height:1px;background:#403c3b;margin:25px auto}h1{font-size:35px}h2{font-size:28px}h3{font-size:22px;margin-top:18px}h1 a,h2 a,h3 a{text-decoration:none}h1,h2{margin-top:28px}#sub-header,.date{color:#403c3b;font-size:13px}#sub-header{margin:0 4px}#nav h1 a{font-size:35px;color:#1d1313;line-height:120%}.posts_listing a,#nav a{text-decoration:none}li{margin-left:20px}ul li{margin-left:5px}ul li{list-style-type:none}ul li:before{content:"\00BB \0020"}#nav ul li:before,.posts_listing li:before{content:'';margin-right:0}#content{text-align:left;width:100%;font-size:15px;padding:60px 0 80px}#content h1,#content h2{margin-bottom:5px}#content h2{font-size:25px}#content .entry-content{margin-top:15px}#content .date{margin-left:3px}#content h1{font-size:30px}.highlight{margin:10px 0}.posts_listing{margin:0 0 50px}.posts_listing li{margin:0 0 25px 15px}.posts_listing li a:hover,#nav a:hover{text-decoration:underline}#nav{text-align:center;position:static;margin-top:60px}#nav ul{display:table;margin:8px auto 0}#nav li{list-style-type:none;display:table-cell;font-size:15px;padding:0 20px}#links{display:flex;justify-content:space-between;margin:50px 0 0}#links :nth-child(1){margin-right:.5em}#links :nth-child(2){margin-left:.5em}#not-found{text-align:center}#not-found a{font-family:old standard tt,serif;font-size:200px;text-decoration:none;display:inline-block;padding-top:225px}@media(max-width:750px){body{padding-left:20px;padding-right:20px}#nav h1 a{font-size:28px}#nav li{font-size:13px;padding:0 15px}#content{margin-top:0;padding-top:50px;font-size:14px}#content h1{font-size:25px}#content h2{font-size:22px}.posts_listing li div{font-size:12px}}@media(max-width:400px){body{padding-left:20px;padding-right:20px}#nav h1 a{font-size:22px}#nav li{font-size:12px;padding:0 10px}#content{margin-top:0;padding-top:20px;font-size:12px}#content h1{font-size:20px}#content h2{font-size:18px}.posts_listing li div{font-size:12px}}@media(prefers-color-scheme:dark){*,#nav h1 a{color:#fdfdfd}body{background:#121212}pre,code{background-color:#262626}#sub-header,.date{color:#bababa}hr{background:#ebebeb}}</style>
+</head>
+<body>
+<section id=nav>
+<h1><a href=https://federicotorrielli.github.io/blog/>Federico Torrielli - Blog</a></h1>
+<ul>
+<li><a href=https://federicotorrielli.github.io/blog/>Home</a></li>
+<li><a href=https://github.com/federicotorrielli>GitHub</a></li>
+<li><a href=https://evilscript.altervista.org>Website</a></li>
+</ul>
+</section>
+<section id=content>
+<h1> Is Your Password Really That Strong? </h1>
+<div id=sub-header>
+November 2021 · 4 minute read
+</div>
+<div class=entry-content>
+<p>The latest <strong>NordPass</strong> &ldquo;most breached password&rdquo; of 2021, is a list of 200 most common passwords directly taken from
+data breaches and databases of more than <em>270.000.000 passwords</em>:</p>
+<ol>
+<li><em>123456</em></li>
+<li><em>123456789</em></li>
+<li><em>12345</em></li>
+<li><em>qwerty</em></li>
+<li><em>password</em></li>
+</ol>
+<p>These are the first 5, and if they don&rsquo;t surprise you, well, <strong>they don&rsquo;t surprise anyone either</strong>. Why then everybody use them?</p>
+<p><em>Because they are easy to remember</em>, you would say.</p>
+<p><strong>Yes</strong>, it has to do with that, but also to the fact that the majority of people surfing the web and using webapps are drawn to do that.
+Of course we are not talking about building <em>stupid password rules</em> (the more password rules a system has, the easier it will be to crack them),
+but about the real human nature of not caring about a risk as long as &ldquo;it&rsquo;s not mine&rdquo;.</p>
+<p>However, this is not the topic of this article. So, <strong>&ldquo;how can I know if my password is strong enough?"</strong> is an excellent question.
+The answer to that will be given in a moment, but first we need to set-up some <em>basic knowledge</em> about entropy and password security!</p>
+<h2 id=password-strength-and-entropy>Password Strength and Entropy</h2>
+<p>Password strength measures the risk of having a certain password <strong>brute-forced</strong> (a process of guessing it trial-by-trial): for this measure to be
+as complete as possible we have to keep in mind factors like the use of <strong>numbers, letters, symbols, etc&mldr;</strong>.
+These factors are counted with a score function that uses <em>Entropy</em> bits as the output that we analyze. <strong>Entropy measures how unpredictable a password is</strong>.
+This strange measure is just a $log_2$ of the number of all possible passwords, if we assume that every symbol is produced independently.</p>
+<p>Thus, the Entropy E for a password of length L is: $$E=L\cdot log_2(R)$$ where $R$ is the size of the <em>pool</em> of characters the password exists in.</p>
+<h2 id=what-pool-are-we-talking-about>What pool are we talking about?</h2>
+<p>Let&rsquo;s now define a <em>pool</em> for commonly used characters for making a password:</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:right>Pool</th>
+<th style=text-align:left>Elements</th>
+<th style=text-align:center>Pool size</th>
+<th style=text-align:left>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:right>Lowercase latin letters</td>
+<td style=text-align:left>[a-z]</td>
+<td style=text-align:center>26</td>
+<td style=text-align:left></td>
+</tr>
+<tr>
+<td style=text-align:right>Uppercase latin letters</td>
+<td style=text-align:left>[A-Z]</td>
+<td style=text-align:center>26</td>
+<td style=text-align:left></td>
+</tr>
+<tr>
+<td style=text-align:right>Digits</td>
+<td style=text-align:left>[0-9]</td>
+<td style=text-align:center>10</td>
+<td style=text-align:left></td>
+</tr>
+<tr>
+<td style=text-align:right>Symbols</td>
+<td style=text-align:left>`~!@#$%^&*()-=_+[{]}|;' :&rdquo;,.&lt;>/?</td>
+<td style=text-align:center>33</td>
+<td style=text-align:left>Whitespace is included</td>
+</tr>
+</tbody>
+</table>
+<p>Now, using the pool and the formula we are able to extract the Entropy from those common <em>bad passwords</em>!
+We will rank the good/bad password considering the fact that a password that has an Entropy of 19 bits is as strong as
+19 bits that are chosen randomly, like in a fair coin toss. This password with an Entropy of 19 bits will require $2^{42}$
+brute-force attempts: so, stronger passwords have more Entropy bits (easy peasy!).</p>
+<p>Good passwords generally have more than <strong>120 bits of Entropy</strong>, but excellent passwords (like long Diceware passwords), can have
+a lot of bits and be easily remembered!</p>
+<h2 id=examples>Examples</h2>
+<table>
+<thead>
+<tr>
+<th>Password</th>
+<th>Entropy</th>
+<th>Is it good? (>120)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123456</td>
+<td>19.93</td>
+<td>No</td>
+</tr>
+<tr>
+<td>password</td>
+<td>37.60</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ThisPasswordIsSafe1212</td>
+<td>130.99</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>PasLapq@aop%gvf9mw%*Y#rz87rPEr!aFX8LG&b</td>
+<td>256.22</td>
+<td>Yes, but..</td>
+</tr>
+<tr>
+<td>SpyglassPushoverMuskinessSuspendShareCertified</td>
+<td>262.22</td>
+<td>Awesome, a Diceware!</td>
+</tr>
+</tbody>
+</table>
+<p>As you can see from this list we have a note to make about 3 things:</p>
+<ul>
+<li>You can have an excellent password <strong>without adding numbers or special characters</strong>!</li>
+<li>Machine generated passwords are <em>not</em> harder to hack as you can see, but surely <strong>impossible to remember</strong>&mldr;</li>
+<li><strong>Character repetition is bad</strong> for your passwords, even if it has an high Entropy.</li>
+</ul>
+<h2 id=conclusion-and-acknowledgements>Conclusion and acknowledgements</h2>
+<p>Knowing that you should follow best-practices to avoid making weak passwords (and now you know how!) the biggest
+<em>vulnerability</em> here is represented by humans and their ability not to leak those password via phishing
+or just having that password in a clear file on the desktop (and that, my friends, happens a lot).</p>
+<p>If you want to know the Entropy of your passwords without inputting them online you can use <a href=https://github.com/grtcdr/paspio>this</a> <em>free and open source</em> tool.
+Then, I still consider <strong>Diceware</strong> passwords to be the best at the job, and you can create them <a href=https://diceware.dmuth.org/>here</a> or in your password manager (mine is <strong>Bitwarden</strong>)!</p>
+<p>Thanks for reading!</p>
+<p><em>Author: Federico &ldquo;EvilScript&rdquo; Torrielli</em></p>
+</div>
+<div id=links>
+<a href=https://federicotorrielli.github.io/blog/posts/a-battle-of-linux-distros/>&#171;&nbsp;A Battle of Linux Distros</a>
+</div>
+</section>
+</body>
+</html>
