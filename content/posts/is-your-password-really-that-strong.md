@@ -2,7 +2,6 @@
 title: "Is Your Password Really That Strong?"
 date: 2021-11-30T16:49:55+01:00
 draft: false
-mathjax: true
 ---
 
 The latest **NordPass** "most breached password" of 2021, is a list of 200 most common passwords directly taken from
@@ -30,9 +29,9 @@ The answer to that will be given in a moment, but first we need to set-up some *
 Password strength measures the risk of having a certain password **brute-forced** (a process of guessing it trial-by-trial): for this measure to be
 as complete as possible we have to keep in mind factors like the use of **numbers, letters, symbols, etc...**.
 These factors are counted with a score function that uses *Entropy* bits as the output that we analyze. **Entropy measures how unpredictable a password is**.
-This strange measure is just a $log_2$ of the number of all possible passwords, if we assume that every symbol is produced independently.
+This strange measure is just a log_2 of the number of all possible passwords, if we assume that every symbol is produced independently.
 
-Thus, the Entropy E for a password of length L is: $$E=L\cdot log_2(R)$$ where $R$ is the size of the *pool* of characters the password exists in.
+Thus, the Entropy E for a password of length L is: *E=L * log_2(R)* where **R** is the size of the *pool* of characters the password exists in.
 
 ## What pool are we talking about?
 
@@ -47,7 +46,7 @@ Let's now define a *pool* for commonly used characters for making a password:
 
 Now, using the pool and the formula we are able to extract the Entropy from those common *bad passwords*!
 We will rank the good/bad password considering the fact that a password that has an Entropy of 19 bits is as strong as
-19 bits that are chosen randomly, like in a fair coin toss. This password with an Entropy of 19 bits will require $2^{42}$
+19 bits that are chosen randomly, like in a fair coin toss. This password with an Entropy of 19 bits will require 2^(42)
 brute-force attempts: so, stronger passwords have more Entropy bits (easy peasy!).
 
 Good passwords generally have more than **120 bits of Entropy**, but excellent passwords (like long Diceware passwords), can have
