@@ -36,6 +36,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     weight = 2
 [[menu.main]]
     name = "Website"
-    url = "https://evilscript.altervista.org"
+    url = "https://evilscript.eu"
     weight = 3
 
