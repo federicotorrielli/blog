@@ -3,7 +3,7 @@ title = "Federico Torrielli - Blog"
 author = "Federico Torrielli"
 canonifyurls = true
 languagecode = "en-us"
-theme = "black-and-light"
+theme = "hugo-black-and-light-theme"
 
 enableEmoji = true
 hasCJKLanguage = false

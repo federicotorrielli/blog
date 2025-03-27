@@ -1,6 +1,3 @@
-[submodule "themes/tanka"]
-	path = themes/tanka
-	url = https://github.com/nanxstats/hugo-tanka.git
 [submodule "themes/hugo-black-and-light-theme"]
 	path = themes/hugo-black-and-light-theme
 	url = https://github.com/fumblehool/hugo-black-and-light-theme.git
