@@ -1,10 +1,14 @@
-# Beyond the Stats: A Framework for Crafting Compelling D&D Characters
+---
+title: "Beyond the Stats: A Framework for Crafting Compelling D&D Characters"
+date: 2024-03-27T00:00:00+01:00
+draft: false
+---
 
 Creating a new Dungeons & Dragons character is one of the most exciting parts of the game. It's a chance to step into another world, embody a hero (or anti-hero!), and weave a story alongside your friends. But moving beyond a collection of stats and abilities to create someone truly memorable and engaging can be challenging.
 
 Too often, characters end up feeling inconsistent, paper-thin, or like walking contradictions. How do you build someone with depth who is also fun and functional to play?
 
-## I've come up with this 5-step framework for you to use, so... enjoy!
+I've come up with this 5-step framework for you to use, so... enjoy!
 
 ## Guideline 1: The Primal Urge - Prioritize Self-Preservation
 
