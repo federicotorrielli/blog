@@ -19,7 +19,7 @@ This might sound obvious, but it's foundational and often overlooked, especially
 - **In Practice:**
   - When faced with overwhelming odds, does your character look for an escape or a tactical retreat, or just charge blindly?
   - Do they take unnecessary risks that jeopardize their life for trivial gains?
-  - Even a "crazy" character can have a warped sense of self-preservation. Perhaps they believe they're immortal, leading to reckless actions, but they still react negatively to pain or perceived "death."
+  - Even a "crazy" character can have a warped sense of self-preservation. Perhaps they believe they're immortal, leading to reckless actions, but they still react negatively to pain or perceived "death".
 
 **Key Takeaway:** Ground your character in the fundamental desire to continue existing. This makes their moments of true bravery or sacrifice far more impactful.
 
@@ -51,7 +51,7 @@ Characters defined by single, overwhelming traits (the "always grumpy" dwarf, th
     - **Virtue:** Fiercely Loyal to Friends (But suspicious of everyone else).
     - **Flaw:** Prone to Holding Grudges (Never forgets a slight, even a minor one).
 - **Situational Emergence:** These core traits shouldn't dominate every interaction. Instead, they should _pop up_ in specific, relevant situations. The character afraid of failure might seem confident most of the time, but crumble when assigned leadership. The secretly generous one might surprise everyone with an unexpected act of kindness when no one is looking.
-- **Subtlety Over Spectacle:** Avoid traits like "Always tells the truth" or "Compulsively steals." These are hard to play realistically and consistently. Focus on internal struggles, tendencies, and values that manifest situationally.
+- **Subtlety Over Spectacle:** Avoid traits like "Always tells the truth" or "Compulsively steals". These are hard to play realistically and consistently. Focus on internal struggles, tendencies, and values that manifest situationally.
 
 **Key Takeaway:** Start with one specific virtue and one specific flaw. Let them emerge naturally in relevant situations rather than defining every action. This creates depth without making the character a caricature.
 
@@ -69,7 +69,7 @@ Resist the urge to write a sprawling epic for your character's backstory. While 
   - A defining event or relationship.
   - A clear motivation for adventuring.
   - An unresolved question or goal.
-  - _Example:_ "My character was a street urchin who was taken in by a retired soldier. The soldier vanished mysteriously a year ago. My character is searching for clues, using the survival skills the soldier taught them." (NPC: 1 key mentor. Motivation: Find mentor. Unresolved Question: What happened?)
+  - _Example:_ "My character was a street urchin who was taken in by a retired soldier. The soldier vanished mysteriously a year ago. My character is searching for clues, using the survival skills the soldier taught them". (NPC: 1 key mentor. Motivation: Find mentor. Unresolved Question: What happened?)
 - **Leave Room for Growth:** A simpler backstory provides a strong starting point but leaves ample space for development _during_ the game. Discovering new facets of your character through play is incredibly rewarding. Your DM can use the hooks you provide to create personal plotlines.
 
 **Key Takeaway:** Start with a concise, evocative backstory. Focus on one or two key relationships, a core motivation, and an open thread. Let the depth emerge through gameplay and collaboration with your DM.
