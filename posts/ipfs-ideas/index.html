@@ -1,100 +1,16 @@
-<!doctype html><html lang=en-us>
-<head>
-<meta charset=utf-8>
-<meta name=HandheldFriendly content="True">
-<meta name=MobileOptimized content="320">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=referrer content="no-referrer">
-<meta name=description content>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel=stylesheet media=print type=text/css onload="this.media='all'">
-<title>
-IPFS ideas for InstantOS
-</title>
-<link rel=canonical href=https://federicotorrielli.github.io/blog/posts/ipfs-ideas/>
-<style>*{border:0;font:inherit;font-size:100%;vertical-align:baseline;margin:0;padding:0;color:#000;text-decoration-skip:ink}body{font-family:open sans,myriad pro,Myriad,sans-serif;font-size:17px;line-height:160%;color:#1d1313;max-width:700px;margin:auto}p{margin:20px 0}a img{border:none}img{margin:10px auto;max-width:100%;display:block}.left-justify{float:left}.right-justify{float:right}pre,code{font:12px Consolas,liberation mono,Menlo,Courier,monospace;background-color:#f7f7f7}code{font-size:12px;padding:4px}pre{margin-top:0;margin-bottom:16px;word-wrap:normal;padding:16px;overflow:auto;font-size:85%;line-height:1.45}pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}pre code{display:inline;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}pre code::before,pre code::after{content:normal}em,q,em,dfn{font-style:italic}.sans,html .gist .gist-file .gist-meta{font-family:open sans,myriad pro,Myriad,sans-serif}.mono,pre,code,tt,p code,li code{font-family:Menlo,Monaco,andale mono,lucida console,courier new,monospace}.heading,.serif,h1,h2,h3{font-family:old standard tt,serif}strong{font-weight:600}q:before{content:"\201C"}q:after{content:"\201D"}del,s{text-decoration:line-through}blockquote{font-family:old standard tt,serif;text-align:center;padding:50px}blockquote p{display:inline-block;font-style:italic}blockquote:before,blockquote:after{font-family:old standard tt,serif;content:'\201C';font-size:35px;color:#403c3b}blockquote:after{content:'\201D'}hr{width:40%;height:1px;background:#403c3b;margin:25px auto}h1{font-size:35px}h2{font-size:28px}h3{font-size:22px;margin-top:18px}h1 a,h2 a,h3 a{text-decoration:none}h1,h2{margin-top:28px}#sub-header,.date{color:#403c3b;font-size:13px}#sub-header{margin:0 4px}#nav h1 a{font-size:35px;color:#1d1313;line-height:120%}.posts_listing a,#nav a{text-decoration:none}li{margin-left:20px}ul li{margin-left:5px}ul li{list-style-type:none}ul li:before{content:"\00BB \0020"}#nav ul li:before,.posts_listing li:before{content:'';margin-right:0}#content{text-align:left;width:100%;font-size:15px;padding:60px 0 80px}#content h1,#content h2{margin-bottom:5px}#content h2{font-size:25px}#content .entry-content{margin-top:15px}#content .date{margin-left:3px}#content h1{font-size:30px}.highlight{margin:10px 0}.posts_listing{margin:0 0 50px}.posts_listing li{margin:0 0 25px 15px}.posts_listing li a:hover,#nav a:hover{text-decoration:underline}#nav{text-align:center;position:static;margin-top:60px}#nav ul{display:table;margin:8px auto 0}#nav li{list-style-type:none;display:table-cell;font-size:15px;padding:0 20px}#links{display:flex;justify-content:space-between;margin:50px 0 0}#links :nth-child(1){margin-right:.5em}#links :nth-child(2){margin-left:.5em}#not-found{text-align:center}#not-found a{font-family:old standard tt,serif;font-size:200px;text-decoration:none;display:inline-block;padding-top:225px}@media(max-width:750px){body{padding-left:20px;padding-right:20px}#nav h1 a{font-size:28px}#nav li{font-size:13px;padding:0 15px}#content{margin-top:0;padding-top:50px;font-size:14px}#content h1{font-size:25px}#content h2{font-size:22px}.posts_listing li div{font-size:12px}}@media(max-width:400px){body{padding-left:20px;padding-right:20px}#nav h1 a{font-size:22px}#nav li{font-size:12px;padding:0 10px}#content{margin-top:0;padding-top:20px;font-size:12px}#content h1{font-size:20px}#content h2{font-size:18px}.posts_listing li div{font-size:12px}}@media(prefers-color-scheme:dark){*,#nav h1 a{color:#fdfdfd}body{background:#121212}pre,code{background-color:#262626}#sub-header,.date{color:#bababa}hr{background:#ebebeb}}</style>
-</head>
-<body>
-<section id=nav>
-<h1><a href=https://federicotorrielli.github.io/blog/>Federico Torrielli - Blog</a></h1>
-<ul>
-<li><a href=https://federicotorrielli.github.io/blog/>Home</a></li>
-<li><a href=https://github.com/federicotorrielli>GitHub</a></li>
-<li><a href=https://evilscript.altervista.org>Website</a></li>
-</ul>
-</section>
-<section id=content>
-<h1> IPFS ideas for InstantOS </h1>
-<div id=sub-header>
-June 2021 · 4 minute read
-</div>
-<div class=entry-content>
-<blockquote>
-<p>by Federico &ldquo;EvilScript&rdquo; Torrielli</p>
-</blockquote>
-<h2 id=part-1-small-introduction-to-ipfs-and-problems>Part 1: small introduction to IPFS (and problems)</h2>
-<p>IPFS is a very recent distributed (file) system that works like an always-on peer-to-peer program in the background.
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=HandheldFriendly content="True"><meta name=MobileOptimized content="320"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer"><meta name=description content><link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel=stylesheet media=print type=text/css onload='this.media="all"'><title>IPFS ideas for InstantOS
+</title><link rel=canonical href=https://federicotorrielli.github.io/blog/posts/ipfs-ideas/><style>*{border:0;font:inherit;font-size:100%;vertical-align:baseline;margin:0;padding:0;color:#000;text-decoration-skip:ink}body{font-family:open sans,myriad pro,Myriad,sans-serif;font-size:17px;line-height:160%;color:#1d1313;max-width:700px;margin:auto}p{margin:20px 0}a img{border:none}img{margin:10px auto;max-width:100%;display:block}.left-justify{float:left}.right-justify{float:right}pre,code{font:12px Consolas,liberation mono,Menlo,Courier,monospace;background-color:#f7f7f7}code{font-size:12px;padding:4px}pre{margin-top:0;margin-bottom:16px;word-wrap:normal;padding:16px;overflow:auto;font-size:85%;line-height:1.45}pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}pre code{display:inline;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}pre code::before,pre code::after{content:normal}em,q,em,dfn{font-style:italic}.sans,html .gist .gist-file .gist-meta{font-family:open sans,myriad pro,Myriad,sans-serif}.mono,pre,code,tt,p code,li code{font-family:Menlo,Monaco,andale mono,lucida console,courier new,monospace}.heading,.serif,h1,h2,h3{font-family:old standard tt,serif}strong{font-weight:600}q:before{content:"\201C"}q:after{content:"\201D"}del,s{text-decoration:line-through}blockquote{font-family:old standard tt,serif;text-align:center;padding:50px}blockquote p{display:inline-block;font-style:italic}blockquote:before,blockquote:after{font-family:old standard tt,serif;content:'\201C';font-size:35px;color:#403c3b}blockquote:after{content:'\201D'}hr{width:40%;height:1px;background:#403c3b;margin:25px auto}h1{font-size:35px}h2{font-size:28px}h3{font-size:22px;margin-top:18px}h1 a,h2 a,h3 a{text-decoration:none}h1,h2{margin-top:28px}#sub-header,.date{color:#403c3b;font-size:13px}#sub-header{margin:0 4px}#nav h1 a{font-size:35px;color:#1d1313;line-height:120%}.posts_listing a,#nav a{text-decoration:none}li{margin-left:20px}ul li{margin-left:5px}ul li{list-style-type:none}ul li:before{content:"\00BB \0020"}#nav ul li:before,.posts_listing li:before{content:'';margin-right:0}#content{text-align:left;width:100%;font-size:15px;padding:60px 0 80px}#content h1,#content h2{margin-bottom:5px}#content h2{font-size:25px}#content .entry-content{margin-top:15px}#content .date{margin-left:3px}#content h1{font-size:30px}.highlight{margin:10px 0}.posts_listing{margin:0 0 50px}.posts_listing li{margin:0 0 25px 15px}.posts_listing li a:hover,#nav a:hover{text-decoration:underline}#nav{text-align:center;position:static;margin-top:60px}#nav ul{display:table;margin:8px auto 0}#nav li{list-style-type:none;display:table-cell;font-size:15px;padding:0 20px}#links{display:flex;justify-content:space-between;margin:50px 0 0}#links :nth-child(1){margin-right:.5em}#links :nth-child(2){margin-left:.5em}#not-found{text-align:center}#not-found a{font-family:old standard tt,serif;font-size:200px;text-decoration:none;display:inline-block;padding-top:225px}@media(max-width:750px){body{padding-left:20px;padding-right:20px}#nav h1 a{font-size:28px}#nav li{font-size:13px;padding:0 15px}#content{margin-top:0;padding-top:50px;font-size:14px}#content h1{font-size:25px}#content h2{font-size:22px}.posts_listing li div{font-size:12px}}@media(max-width:400px){body{padding-left:20px;padding-right:20px}#nav h1 a{font-size:22px}#nav li{font-size:12px;padding:0 10px}#content{margin-top:0;padding-top:20px;font-size:12px}#content h1{font-size:20px}#content h2{font-size:18px}.posts_listing li div{font-size:12px}}@media(prefers-color-scheme:dark){*,#nav h1 a{color:#fdfdfd}body{background:#121212}pre,code{background-color:#262626}#sub-header,.date{color:#bababa}hr{background:#ebebeb}}</style></head><body><section id=nav><h1><a class=h-card href=https://federicotorrielli.github.io/blog/>Federico Torrielli - Blog</a></h1><ul><li><a href=https://federicotorrielli.github.io/blog/>Home</a></li><li><a href=https://github.com/federicotorrielli>GitHub</a></li><li><a href=https://evilscript.eu>Website</a></li></ul></section><section id=content><h1>IPFS ideas for InstantOS</h1><div id=sub-header>June 2021 · 4 minute read</div><div class=entry-content><blockquote><p>by Federico &ldquo;EvilScript&rdquo; Torrielli</p></blockquote><h2 id=part-1-small-introduction-to-ipfs-and-problems>Part 1: small introduction to IPFS (and problems)</h2><p>IPFS is a very recent distributed (file) system that works like an always-on peer-to-peer program in the background.
 IPFS works with peers and gateways. Peers are, to be simple, computers. Gateways are centralized systems that bridge
 between the file that you want via a link and the IPFS network. They work like normal web-servers but they just
-convert a HTTP link into an IPFS resource. You can learn everything about them <a href=https://github.com/ipfs/go-ipfs/blob/master/docs/gateway.md>here</a>.</p>
-<p>The advantages of having a great IPFS network is that files never disappear. Since there is no centralized server to host the resource,
+convert a HTTP link into an IPFS resource. You can learn everything about them <a href=https://github.com/ipfs/go-ipfs/blob/master/docs/gateway.md>here</a>.</p><p>The advantages of having a great IPFS network is that files never disappear. Since there is no centralized server to host the resource,
 there is no way to DDOS a single server to put down a resouce. The only way for a resource to disappear is to make it disappear from every
 computer on the distributed net (So if the file <em>InstantOS.iso</em> is hosted (or partially hosted, more on this later) on all computers, there
-is no way for an ISP to censor that ISO or for a server to have downtimes.</p>
-<p><em>So, does it speed up downloads?</em> You may be asking. The answer is <strong>yes</strong>, you sussy baka. More computers == more speed.
-IPFS it&rsquo;s fully configurable: you can set max/min upload speed, and all the features that cool distributed network programs have.</p>
-<p><img src=https://i.imgur.com/HAJnw7g.png alt="A quick rundown of everything cool about IPFS"></p>
-<p>Of course, everything as a price and not everything is perfect. So to implement IPFS into InstantOS we may need some important things:</p>
-<ol>
-<li>Participation. IPFS <strong>must</strong> be enabled by default</li>
-<li>Content, but we have a lot to put there</li>
-<li>Apps or scripts that make IPFS friendlier and more usable</li>
-</ol>
-<p>Let&rsquo;s talk a little bit more about IPFS and <em>how it works</em>. There are 3 fundamental principles to understanding IPFS:</p>
-<ul>
-<li>Unique identification via content addressing</li>
-<li>Content linking via directed acyclic graphs <em>DAGs</em></li>
-<li>Content discovery via distributed hash tables <em>DHTs</em></li>
-</ul>
-<p><strong>Content Addressing</strong> (A.K.A. what is the content of the book, given a title name?): on the internet we usually look at links like
+is no way for an ISP to censor that ISO or for a server to have downtimes.</p><p><em>So, does it speed up downloads?</em> You may be asking. The answer is <strong>yes</strong>, you sussy baka. More computers == more speed.
+IPFS it&rsquo;s fully configurable: you can set max/min upload speed, and all the features that cool distributed network programs have.</p><p><img src=https://i.imgur.com/HAJnw7g.png alt="A quick rundown of everything cool about IPFS"></p><p>Of course, everything as a price and not everything is perfect. So to implement IPFS into InstantOS we may need some important things:</p><ol><li>Participation. IPFS <strong>must</strong> be enabled by default</li><li>Content, but we have a lot to put there</li><li>Apps or scripts that make IPFS friendlier and more usable</li></ol><p>Let&rsquo;s talk a little bit more about IPFS and <em>how it works</em>. There are 3 fundamental principles to understanding IPFS:</p><ul><li>Unique identification via content addressing</li><li>Content linking via directed acyclic graphs <em>DAGs</em></li><li>Content discovery via distributed hash tables <em>DHTs</em></li></ul><p><strong>Content Addressing</strong> (A.K.A. what is the content of the book, given a title name?): on the internet we usually look at links like
 <em><a href=https://instantos.io/>https://instantos.io/</a></em>, that shows us the website with the name instantos.io. That link is a resource, a file on some server.
-On IPFS content addressing is made with <em>CID</em> or Content Identifiers, hash(es) of files. instantos iso is <em>QmU4mP3VhqSB9R4WGyNAAj7Vg4RZTZpBZgnMWRwm7dC63D</em>, easy.</p>
-<p>I&rsquo;m not going into details about DAGs and DHTs, but bear in mind (Merkle) DAGs are used for representing IPFS directories and files while
+On IPFS content addressing is made with <em>CID</em> or Content Identifiers, hash(es) of files. instantos iso is <em>QmU4mP3VhqSB9R4WGyNAAj7Vg4RZTZpBZgnMWRwm7dC63D</em>, easy.</p><p>I&rsquo;m not going into details about DAGs and DHTs, but bear in mind (Merkle) DAGs are used for representing IPFS directories and files while
 DHTs are used to tell where the content is stored in the network (trust me, it&rsquo;s pretty hard to get healthy files in a giant network!).
-Since this is a really good system, where are the flaws I was talking about? Let&rsquo;s talk about them.</p>
-<ol>
-<li>By default, IPFS creates <strong>a lot</strong> of garbage. Since the primary intent is to <em>store</em> things that are useful for the network, we usually don&rsquo;t want
-garbage (like IRL). IPFS has a really good garbage collection process, but it&rsquo;s not enabled by default for really good reasons (more on this later)</li>
-<li>The current IPFS implementation is in go. And I don&rsquo;t really love it. It&rsquo;s not slow or resource hungry, but it can be waaay better.</li>
-<li>It&rsquo;s pretty hard to upload and use on the net dynamic content, but <em>not</em> impossible (Gemini-like problems, you know what I mean)</li>
-</ol>
-<h2 id=part-2-why-should-we-use-ipfs-for-instantos>Part 2: why should we use IPFS for InstantOS?</h2>
-<p>Centralized servers cost money. The more data you have, the more money you will have to pay. If you want <em>fast</em> data, you might want SSD Servers and databases,
-and that costs <em>more money</em> that the community usually don&rsquo;t want to pay.</p>
-<p>IPFS offers free and distributed storage, really good libraries to build fast applications in a lot of programming languages and such. Aaaand.. that&rsquo;s it?</p>
-<p>Of course not, but here&rsquo;s the interesting part. You can use IPFS for everything, with good applications that already do it! Here&rsquo;s a list of what can we do with it:</p>
-<ul>
-<li>Send and receive files (duh)</li>
-<li>Version Control (via IPVC, similar to git)</li>
-<li>Exchange messages (see <a href=https://berty.tech/>berty</a>)</li>
-<li>Host videos (DTube already uses IPFS)</li>
-<li>And other <a href=https://docs.ipfs.io/concepts/usage-ideas-examples/>crazy things!</a></li>
-</ul>
-<h2 id=part-3-how-should-we-use-it>Part 3: how should we use it</h2>
-<ol>
-<li>Go-ipfs enabled by default with the &ndash;enable-gc flag to prevent users from seeing all their data not garbage-collected</li>
-<li>Use IPFS for host and for the <em>latest</em> ISO. The first thing can be pinned (more on pinning <a href=https://docs.ipfs.io/how-to/pin-files/>here</a>)</li>
-<li>Implement an option in InstantASSISTANT to send a file via IPFS and copy the gateway link to the clipboard with one click only</li>
-<li>Implement an easy <em>IPFS settings</em> under the settings tab that lets you control all the juicy things easily</li>
-<li>Instant Repository on IPFS, with installed packages pinned by default and unpinned when the package is updated (unpin the old, pin the latest)</li>
-<li>Use a pinning service only at first, then switch to the community IPFS when things are settled well</li>
-</ol>
-<p>There is a broad <em>how-to</em> <a href=https://docs.ipfs.io/how-to/>here</a> that explains clearly how to implement lots of things I just wrote about.</p>
-<p>You can find this article in LaTeX-PDF on IPFS <a href="https://ipfs.io/ipfs/QmfFQwBp1HB6KiRmgbYQnCfVJKJ93jmsK7Nuq9LwP1E93U?filename=ipfs-ideas.pdf">here</a>!</p>
-</div>
-<div id=links>
-<a href=https://federicotorrielli.github.io/blog/posts/the-urge/>&#171;&nbsp;The Urge to Update</a>
-<a href=https://federicotorrielli.github.io/blog/posts/a-battle-of-linux-distros/>A Battle of Linux Distros&nbsp;&#187;</a>
-</div>
-</section>
-</body>
-</html>
+Since this is a really good system, where are the flaws I was talking about? Let&rsquo;s talk about them.</p><ol><li>By default, IPFS creates <strong>a lot</strong> of garbage. Since the primary intent is to <em>store</em> things that are useful for the network, we usually don&rsquo;t want
+garbage (like IRL). IPFS has a really good garbage collection process, but it&rsquo;s not enabled by default for really good reasons (more on this later)</li><li>The current IPFS implementation is in go. And I don&rsquo;t really love it. It&rsquo;s not slow or resource hungry, but it can be waaay better.</li><li>It&rsquo;s pretty hard to upload and use on the net dynamic content, but <em>not</em> impossible (Gemini-like problems, you know what I mean)</li></ol><h2 id=part-2-why-should-we-use-ipfs-for-instantos>Part 2: why should we use IPFS for InstantOS?</h2><p>Centralized servers cost money. The more data you have, the more money you will have to pay. If you want <em>fast</em> data, you might want SSD Servers and databases,
+and that costs <em>more money</em> that the community usually don&rsquo;t want to pay.</p><p>IPFS offers free and distributed storage, really good libraries to build fast applications in a lot of programming languages and such. Aaaand.. that&rsquo;s it?</p><p>Of course not, but here&rsquo;s the interesting part. You can use IPFS for everything, with good applications that already do it! Here&rsquo;s a list of what can we do with it:</p><ul><li>Send and receive files (duh)</li><li>Version Control (via IPVC, similar to git)</li><li>Exchange messages (see <a href=https://berty.tech/>berty</a>)</li><li>Host videos (DTube already uses IPFS)</li><li>And other <a href=https://docs.ipfs.io/concepts/usage-ideas-examples/>crazy things!</a></li></ul><h2 id=part-3-how-should-we-use-it>Part 3: how should we use it</h2><ol><li>Go-ipfs enabled by default with the &ndash;enable-gc flag to prevent users from seeing all their data not garbage-collected</li><li>Use IPFS for host and for the <em>latest</em> ISO. The first thing can be pinned (more on pinning <a href=https://docs.ipfs.io/how-to/pin-files/>here</a>)</li><li>Implement an option in InstantASSISTANT to send a file via IPFS and copy the gateway link to the clipboard with one click only</li><li>Implement an easy <em>IPFS settings</em> under the settings tab that lets you control all the juicy things easily</li><li>Instant Repository on IPFS, with installed packages pinned by default and unpinned when the package is updated (unpin the old, pin the latest)</li><li>Use a pinning service only at first, then switch to the community IPFS when things are settled well</li></ol><p>There is a broad <em>how-to</em> <a href=https://docs.ipfs.io/how-to/>here</a> that explains clearly how to implement lots of things I just wrote about.</p><p>You can find this article in LaTeX-PDF on IPFS <a href="https://ipfs.io/ipfs/QmfFQwBp1HB6KiRmgbYQnCfVJKJ93jmsK7Nuq9LwP1E93U?filename=ipfs-ideas.pdf">here</a>!</p></div><div id=links><a href=https://federicotorrielli.github.io/blog/posts/the-urge/>&#171;&nbsp;The Urge to Update</a>
+<a href=https://federicotorrielli.github.io/blog/posts/a-battle-of-linux-distros/>A Battle of Linux Distros&nbsp;&#187;</a></div></section></body></html>
