@@ -5,7 +5,7 @@ draft: false
 math: true
 ---
 
-The phrase "AI ethics" is often a grab-bag of slogans, compliance checklists, and moral intuitions. That sprawl hides a simpler argument: alignment is a control problem under uncertainty. I will lay out one compact decision-theoretic statement of that problem, and show why it captures most of what practitioners and philosophers worry about when they say "be ethical".
+The phrase "AI ethics" is often a undefined set of slogans, compliance checklists, and moral intuitions. That sprawl hides a simpler argument: alignment is a control problem under uncertainty. While I cannot say I am an expert in philosophy, my work is usually AI Alignment research, so, here are my two cents. I will lay out one compact decision-theoretic statement of that problem, and show why it captures most of what philosophers worry about when they say "be ethical".
 
 ## Motivation
 
@@ -15,13 +15,13 @@ Any real-world AI is an agent with levers on global structure. Even narrow syste
 2. Axiological pressure: humans are pluralistic and uncertain about value.
 3. Catastrophe pressure: low-probability errors can be existentially large.
 
-If a definition of AI ethics does not reckon with all three, it is at best aspirational.
+If a definition of AI ethics does not reckon with all three, it is at best... aspirational.
 
-## The definition in prose
+## The definition
 
 An AI system is ethical to the degree that the causal impact of its policy converges toward what an ideally informed and reflectively stable aggregation of human values would choose, discounted by the risk of catastrophic misalignment.
 
-## The mathematical backbone
+## The math
 
 $$
 \pi^{*} \;=\; \arg\max_{\pi}\Bigl[
@@ -45,11 +45,9 @@ $\lambda$ sets risk-aversion strength.
 
 Start with a policy. Roll forward the possible futures it could bring about. Score each future with each plausible value function. Average over both kinds of uncertainty. Subtract a penalty proportional to worst-case downside. Pick the policy with the highest resulting number. Everything else (e.g., fairness heuristics, transparency, guardrails) are practical approximations to terms in that procedure.
 
-## The role of the risk term
-
 Why subtract instead of scaling the expectation? Because heavy-tailed harms ruin linear averaging. A one-in-a-billion chance of vacuum-decay should dominate your decision calculus even if the mean looks good. The penalty term makes that dominance explicit. $\lambda$ is a knob society can tune; raise it to favor safety at the cost of raw utility, lower it to chase efficiency with thinner margins.
 
-## Practical implications
+## Why it matters
 
 Modeling $P(h)$ demands empirical work in value learning, preference elicitation, and deliberative democracy. Estimating $P(\tau \mid \pi)$ is the domain of predictive modeling and causal inference. Evaluating $V_{h}(\tau)$ requires world models rich enough to map trajectories to moral features. Bounding $\text{Risk}(\pi)$ overlaps with adversarial testing, formal verification, and red-teaming. Each subfield of "AI ethics" can be understood as improving one conditional in the master equation.
 
