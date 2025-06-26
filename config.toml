@@ -35,7 +35,7 @@ progressively = false
 enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
 block = [['\[', '\]'], ['$$', '$$']]
-inline = [['\(', '\)']]
+inline = [['\(', '\)'], ['$', '$']]
 
 [[menu.main]]
 name = "Home"
