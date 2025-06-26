@@ -2,6 +2,8 @@
 title: "A pragmatic frame for AI Ethics"
 date: 2025-06-26
 draft: false
+mathjax: true
+latex: true
 ---
 
 The phrase "AI ethics" is often a grab-bag of slogans, compliance checklists, and moral intuitions. That sprawl hides a simpler argument: alignment is a control problem under uncertainty. I will lay out one compact decision-theoretic statement of that problem, and show why it captures most of what practitioners and philosophers worry about when they say "be ethical".
