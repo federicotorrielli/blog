@@ -21,8 +21,6 @@ This might sound obvious, but it's foundational and often overlooked, especially
   - Do they take unnecessary risks that jeopardize their life for trivial gains?
   - Even a "crazy" character can have a warped sense of self-preservation. Perhaps they believe they're immortal, leading to reckless actions, but they still react negatively to pain or perceived "death".
 
-**Key Takeaway:** Ground your character in the fundamental desire to continue existing. This makes their moments of true bravery or sacrifice far more impactful.
-
 ---
 
 ## Guideline 2: Walk the Talk - Consistency is Key
@@ -35,8 +33,6 @@ This might sound obvious, but it's foundational and often overlooked, especially
   - What is their _motivation_ for this action? Is it fear, greed, compassion, duty?
   - Would a rational person (within the context of their personality and experiences) make this choice? A "good" person, by most definitions, wouldn't find joy or casual justification in needless killing.
 - **Avoid "Player Knowledge" Bleed:** Don't let your knowledge of game mechanics or optimal strategies dictate actions that contradict your character's beliefs or personality.
-
-**Key Takeaway:** Strive for actions that logically flow from your character's established identity. If they act out of character, make it meaningful and explore the consequences.
 
 ---
 
@@ -52,8 +48,6 @@ Characters defined by single, overwhelming traits (the "always grumpy" dwarf, th
     - **Flaw:** Prone to Holding Grudges (Never forgets a slight, even a minor one).
 - **Situational Emergence:** These core traits shouldn't dominate every interaction. Instead, they should _pop up_ in specific, relevant situations. The character afraid of failure might seem confident most of the time, but crumble when assigned leadership. The secretly generous one might surprise everyone with an unexpected act of kindness when no one is looking.
 - **Subtlety Over Spectacle:** Avoid traits like "Always tells the truth" or "Compulsively steals". These are hard to play realistically and consistently. Focus on internal struggles, tendencies, and values that manifest situationally.
-
-**Key Takeaway:** Start with one specific virtue and one specific flaw. Let them emerge naturally in relevant situations rather than defining every action. This creates depth without making the character a caricature.
 
 ---
 
@@ -72,8 +66,6 @@ Resist the urge to write a sprawling epic for your character's backstory. While 
   - _Example:_ "My character was a street urchin who was taken in by a retired soldier. The soldier vanished mysteriously a year ago. My character is searching for clues, using the survival skills the soldier taught them". (NPC: 1 key mentor. Motivation: Find mentor. Unresolved Question: What happened?)
 - **Leave Room for Growth:** A simpler backstory provides a strong starting point but leaves ample space for development _during_ the game. Discovering new facets of your character through play is incredibly rewarding. Your DM can use the hooks you provide to create personal plotlines.
 
-**Key Takeaway:** Start with a concise, evocative backstory. Focus on one or two key relationships, a core motivation, and an open thread. Let the depth emerge through gameplay and collaboration with your DM.
-
 ---
 
 ## Guideline 5: The Personal Touch - Pen, Paper, and You
@@ -84,5 +76,3 @@ In an age of digital tools and generative AI, there's immense value in crafting 
 - **Mindful Creation:** The act of writing or thinking without digital assistance encourages slower, more deliberate consideration. It helps you focus on the _why_ behind your choices, rather than just filling in blanks on a digital sheet or accepting the first suggestion an AI gives.
 - **Avoiding Trope Traps:** AI often pulls from vast datasets, which can sometimes lead to generic or trope-heavy suggestions. Starting analog helps ensure your initial spark is unique to your creative process.
 - **Tools Have Their Place:** This isn't about rejecting technology entirely. Character sheets, VTTs, and even AI for brainstorming _later_ details (like naming a forgotten third cousin) can be useful. But the _core concept_, the personality, the initial spark – try letting that come purely from you.
-
-**Key Takeaway:** For the initial, crucial stage of character conception, step away from generative AI. Use your own mind, pen, and paper to foster a deeper connection and ensure the character truly belongs to you.
