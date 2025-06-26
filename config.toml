@@ -24,7 +24,6 @@ sitename = "Federico Torrielli - Blog"
 highlightjs = true
 highlightjslanguages = ["python3", "stan", "bash"]
 uselatex = true
-math = true
 disableWebFonts = false
 progressively = false
 
