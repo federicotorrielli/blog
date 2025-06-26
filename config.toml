@@ -24,13 +24,18 @@ sitename = "Federico Torrielli - Blog"
 highlightjs = true
 highlightjslanguages = ["python3", "stan", "bash"]
 uselatex = true
+math = true
 disableWebFonts = false
 progressively = false
 
 [markup]
 [markup.goldmark]
-[markup.goldmark.renderer]
-unsafe = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
 
 [[menu.main]]
 name = "Home"
