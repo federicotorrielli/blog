@@ -1,4 +1,4 @@
 [submodule "themes/hugo-black-and-light-theme"]
 	path = themes/hugo-black-and-light-theme
-	url = https://github.com/fumblehool/hugo-black-and-light-theme.git
+	url = https://github.com/federicotorrielli/hugo-black-and-light-theme.git
 	branch = fix-breaking-footer
