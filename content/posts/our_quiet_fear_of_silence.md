@@ -35,11 +35,11 @@ They answer questions we forgot we asked, write the e-mail we were avoiding, sum
 They are perfectly polite and therefore slightly monstrous: the butler who will, if you let him, live your entire life so you can concentrate on being present somewhere else.
 
 There is a study that shows students remember less when they let the robot write their essays.
-The missing knowledge does not evaporate; it simply moves into the cloud, where it is stored under somebody else’s password.
+The missing knowledge simply moves into the cloud, where it is stored under somebody else’s password.
 You are free to spend the reclaimed mental energy on more pressing matters, such as wondering why you feel hollow after lunch.
 
 The same tool that can tutor an orphan in Lagos can also attend a meeting on your behalf and report back that three action items were discussed and no souls were observed.
-The danger is not that the AI will become smarter than us; the danger is that we will become a species that outsources its thinking, meets itself only in summary form, and calls that progress.
+The danger is that we will become a species that outsources its thinking, meets itself only in summary form, and calls that progress.
 
 Imagine a brainstorming session where everyone has already asked the bot for ideas.
 Nine people, one ghost, zero surprises.
@@ -50,7 +50,7 @@ This is the intellectual equivalent of baby food: nutritious, bland, and faintly
 
 You remember boredom the way your grandparents remember ration cards.
 You recall long afternoons when the mind was forced to entertain itself with nothing more than weather and the smell of cut grass.
-That muscle has not atrophied; it has merely gone underground.
+That muscle has merely gone underground.
 Dig it up.
 Flex it.
 
@@ -62,3 +62,5 @@ There is still time to swap the curricula.
 
 But hurry.
 The notification bell is ringing, and it sounds like destiny.
+
+![The monster](https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:3kssplu7pwdx7cmntm7jgzze/bafkreiavqnhtstlhd4cb3aanso67lvosgp6y2wuag2z3blvqzhtwkkrywa@jpeg)
