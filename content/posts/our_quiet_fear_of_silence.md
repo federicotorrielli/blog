@@ -1,7 +1,7 @@
 ---
 title: "The Abyss Has Notifications"
 date: 2025-07-17T11:37:47+02:00
-draft: true
+draft: false
 ---
 
 ## The quiet is an endangered biome
