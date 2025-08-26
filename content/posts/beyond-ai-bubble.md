@@ -5,6 +5,8 @@ draft: false
 tags: ["AI", "alignment", "economics", "productivity", "technology"]
 ---
 
+![AI Bubble Original Article](https://evilscript.eu/upload/files/Screenshot_From_2025-08-27_00-36-31.png)
+
 I think the question of whether artificial intelligence constitutes a bubble is poorly posed. The bubble metaphor comes from financial history, where asset prices detach from intrinsic value and collapse once expectations revert. That metaphor presumes a static underlying substrate, an asset with relatively fixed fundamentals. In the case of AI, the substrate itself is mutating at a pace too rapid for conventional analogies to capture.
 
 The reality is that official economic measures of AI productivity appear modest while individual adoption is massive and transformative. Studies at MIT and McKinsey record that only a minority of enterprise deployments create measurable profit, yet hundreds of millions of users incorporate AI tools into their daily cognition. Enterprises treat AI as a capital project whose returns are legible on balance sheets, while workers treat AI as a personal prosthesis whose value is captured in time saved, errors avoided, or skills accelerated. When productivity manifests first at the cognitive margin rather than the organizational margin, it becomes invisible to official measures. This mismatch resembles the early electrification paradox, where household usage preceded enterprise-wide efficiency gains by decades. The apparent contradiction dissolves once one separates institutional AI adoption from individual augmentation.
