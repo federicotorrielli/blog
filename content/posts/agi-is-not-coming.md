@@ -3,7 +3,7 @@ title: "Agi Is Not Coming"
 date: 2025-08-28T14:54:04+02:00
 draft: false
 tags: ["AI", "AGI", "Machine Learning", "Large Language Models", "Philosophy"]
-preview_image: "https://files.catbox.moe/sqrhl7.png"
+preview_image: "/images/agi_is_not_coming_blog_img.png"
 ---
 
 > What is AGI, and is it really around the corner?
