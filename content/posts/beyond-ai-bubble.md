@@ -3,6 +3,7 @@ title: "Beyond the AI Bubble"
 date: 2025-08-27T00:21:16+02:00
 draft: false
 tags: ["AI", "alignment", "economics", "productivity", "technology"]
+preview_image: "https://files.catbox.moe/pypkeo.png"
 ---
 
 ![AI Bubble Original Article](https://evilscript.eu/upload/files/Screenshot_From_2025-08-27_00-36-31.png)
