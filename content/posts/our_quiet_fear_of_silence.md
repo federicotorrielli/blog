@@ -2,7 +2,10 @@
 title: "The Abyss Has Notifications"
 date: 2025-07-17T11:37:47+02:00
 draft: false
+preview_image: "https://files.catbox.moe/720duc.webp"
 ---
+
+![The abyss has notifications](https://files.catbox.moe/720duc.webp)
 
 ## The quiet is an endangered biome
 
