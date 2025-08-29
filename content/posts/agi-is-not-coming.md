@@ -4,10 +4,10 @@ date: 2025-08-28T14:54:04+02:00
 draft: false
 math: true
 tags: ["AI", "AGI", "Machine Learning", "Large Language Models", "Philosophy"]
-preview_image: "https://files.catbox.moe/lrr9nu.png"
+preview_image: "https://files.catbox.moe/y70xve.webp"
 ---
 
-![AGI is not coming](https://files.catbox.moe/lrr9nu.png)
+![AGI is not coming](https://files.catbox.moe/y70xve.webp)
 
 > What is AGI, and is it really around the corner?
 
