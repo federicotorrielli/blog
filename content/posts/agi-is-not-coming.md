@@ -1,6 +1,6 @@
 ---
 title: "Agi Is Not Coming"
-date: 2025-08-28T14:54:04+02:00
+date: 2025-09-01T14:00:00+02:00
 draft: false
 math: true
 tags: ["AI", "AGI", "Machine Learning", "Large Language Models", "Philosophy"]
@@ -9,7 +9,7 @@ preview_image: "https://files.catbox.moe/y70xve.webp"
 
 ![AGI is not coming](https://files.catbox.moe/y70xve.webp)
 
-> What is AGI, and is it really around the corner?
+> The question of whether Machines Can Think... is about as relevant as the question of whether Submarines Can Swim. — Edsger Dijkstra (1984)
 
 We observe systems that demonstrate superhuman aptitude in narrow domains, yet fail at tasks requiring what seems to be trivial common sense or memory. One popular framing suggests the path to AGI is blocked not by a need for more scale, but by a set of "engineering problems": we lack persistent memory, robust agentic scaffolding, and effective long-term planning frameworks. The underlying assumption is that the core intelligence, the Large Language Model, is a sufficiently powerful cognitive engine, and we must now simply build the correct chassis around it.
 
