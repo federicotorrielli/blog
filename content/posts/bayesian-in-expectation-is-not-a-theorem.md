@@ -2,6 +2,8 @@
 title: "\"Bayesian in expectation\" is not a theorem (yet): reviewing the argument"
 date: 2025-09-08T11:48:37+02:00
 draft: false
+math: true
+tags: ["machine learning", "bayesian statistics", "transformers", "large language models", "kolmogorov complexity", "information theory", "paper review", "mathematics", "theoretical computer science", "mdl"]
 preview_image: "https://files.catbox.moe/e3xvqv.png"
 ---
 
