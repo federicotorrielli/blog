@@ -11,6 +11,8 @@ preview_image: "https://files.catbox.moe/e3xvqv.png"
 
 **Disclaimer:** This analysis represents my current understanding of the technical claims in the referenced paper. The critiques presented here may contain errors in interpretation or technical detail. This is an evolving post that may be revised as I receive feedback or identify mistakes in my reasoning. Readers should consult [the original paper](https://arxiv.org/abs/2507.11768) and form their own technical judgments. I welcome corrections and constructive discussion of any points raised below.
 
+---
+
 The paper aims to resolve two conflicting observations about large language models. First, positional encodings violate the exchangeability conditions required for classical Bayesian learning. Second, these models appear to compress data well and sometimes look Bayesian in spirit. The proposed resolution is that transformers are Bayesian in expectation over permutations but not in the realization at a fixed ordering. The paper presents four quantitative results and several empirical confirmations.
 
 The story is (super!) appealing, but right now the formal layer does not carry it.
