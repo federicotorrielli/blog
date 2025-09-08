@@ -1,5 +1,5 @@
 ---
-title: "Beyond the Stats: A Framework for Crafting Compelling D&D Characters"
+title: "My Framework for Crafting Compelling D&D Characters"
 date: 2024-03-27
 draft: false
 ---

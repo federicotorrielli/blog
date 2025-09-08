@@ -1,21 +1,21 @@
 ---
-title: "Bayesian in expectation is not a theorem (yet): reviewing the argument"
+title: "\"Bayesian in expectation\" is not a theorem (yet): reviewing the argument"
 date: 2025-09-08T11:48:37+02:00
-draft: true
+draft: false
 preview_image: "https://files.catbox.moe/e3xvqv.png"
 ---
 
 ![image](https://files.catbox.moe/e3xvqv.png)
 
-**Disclaimer:** This analysis represents my current understanding of the technical claims in the referenced paper. The critiques presented here may contain errors in interpretation or technical detail. This is an evolving assessment that may be revised as I receive feedback or identify mistakes in my reasoning. Readers should consult the original paper and form their own technical judgments. I welcome corrections and constructive discussion of any points raised below.
+**Disclaimer:** This analysis represents my current understanding of the technical claims in the referenced paper. The critiques presented here may contain errors in interpretation or technical detail. This is an evolving post that may be revised as I receive feedback or identify mistakes in my reasoning. Readers should consult [the original paper](https://arxiv.org/abs/2507.11768) and form their own technical judgments. I welcome corrections and constructive discussion of any points raised below.
 
-The paper aims to reconcile two observations about large language models. First, positional encodings break the exchangeability conditions that justify classical Bayesian learning. Second, the same models appear to compress data well and sometimes look Bayesian in spirit. The claimed resolution is that transformers are Bayesian in expectation over permutations, not in realization at a fixed ordering. The paper then announces four quantitative results and several empirical confirmations.
+The paper aims to resolve two conflicting observations about large language models. First, positional encodings violate the exchangeability conditions required for classical Bayesian learning. Second, these models appear to compress data well and sometimes look Bayesian in spirit. The proposed resolution is that transformers are Bayesian in expectation over permutations but not in the realization at a fixed ordering. The paper presents four quantitative results and several empirical confirmations.
 
 The story is (super!) appealing, but right now the formal layer does not carry it.
 
-The reader does not need measure theory to follow the main thread. I will keep the objects concrete. When I say martingale, think fair game where the next expected score given the past equals the current score. When I say MDL, think shortest code for data that pays a cost for the model plus a cost for the residual surprises. When I say positional encoding, think deterministic features of token positions that inject asymmetry into a model that would otherwise see permutations as equivalent.
+The reader does not need to have knowledge of measure theory to understand the main idea. I will keep the objects concrete. When I refer to a martingale, think of a fair game where the next expected score, given the previous outcomes, is equal to the current score. When I mention MDL (Minimum Description Length), think of the shortest code for the data that takes into account both the cost of the model and the cost of the residual surprises. When I talk about positional encoding, think of deterministic features of token positions that introduce asymmetry into a model that otherwise sees permutations as equivalent.
 
-The narrative organizes into three pillars. Pillar one is a formal identity that tries to justify the phrase Bayesian in expectation. Pillar two is a quantitative law for predictive drift across positions. Pillar three is a set of empirical tests that are supposed to confirm both. I address them in order.
+The narrative is organized into three key components. The first pillar is a formal identity that aims to justify the phrase "Bayesian in expectation". The second pillar is a quantitative law for predictive drift across positions. The third pillar consists of empirical tests that aim to confirm both. I will address these components in order.
 
 The identity at the core appears as an equality of expected Kolmogorov complexities and Shannon information. The paper states
 
@@ -23,13 +23,13 @@ $$
 \mathbb{E}_{\pi}\big[K(X\mid \pi)\big] \;=\; K(X) + I(X;\pi).
 $$
 
-This mixes two distinct calculi. Kolmogorov complexity is defined with respect to a universal Turing machine and is noncomputable. Shannon information is defined with respect to a probability law and is computable once the law is known. There is a coding theorem that ties average prefix Kolmogorov complexity to Shannon self information up to additive constants when the expectation is taken under the true distribution of the data. That theorem does not support the written identity, which equates an expectation of a conditional Kolmogorov complexity with an unconditional complexity plus Shannon mutual information with a permutation variable. Algorithmic mutual information is defined by
+This expression combines two distinct calculi. Kolmogorov complexity is defined with respect to a universal Turing machine and is noncomputable. Shannon information is defined with respect to a probability law and is computable once the law is known. There is a coding theorem that relates average prefix Kolmogorov complexity to Shannon self-information up to additive constants, assuming the expectation is taken under the true distribution of the data. However, this theorem does not support the written identity, which equates an expectation of a conditional Kolmogorov complexity with an unconditional complexity plus Shannon mutual information with a permutation variable. Algorithmic mutual information is defined by:
 
 $$
 I_K(X\!:\!\pi) \;=\; K(X) + K(\pi) - K(X,\pi),
 $$
 
-and there are only inequality relations that connect expectations of these quantities to Shannon analogues. There is a second problem. Conditioning reduces expected code length under Shannon information and under prefix Kolmogorov complexity up to constants. The stated sign suggests the opposite. The conclusion is simple. If the thesis Bayesian in expectation depends on the displayed identity, the thesis lacks a valid base. A replacement base is available and standard. Work in Shannon MDL with explicit codes and avoid uncomputable quantities except as intuition.
+and there are only inequality relations that connect expectations of these quantities to their Shannon analogues. There is a second problem. Conditioning reduces expected code length under both Shannon information and prefix Kolmogorov complexity up to constants, contrary to the stated sign. This suggests the opposite. The conclusion is straightforward. If the thesis that transformers are Bayesian in expectation depends on the displayed identity, then the thesis lacks a valid foundation. A viable alternative is to work within the framework of Shannon MDL, using explicit codes and avoiding uncomputable quantities except as intuition.
 
 The correct Shannon object looks like this. Introduce an explicit random ordering variable $\Pi$ with a specified distribution, for example uniform over all permutations of ${1,\dots,n}$. Define a two part code with a model class $\mathcal{M}$ and a prefix code for data given model and ordering. The total codelength is
 
