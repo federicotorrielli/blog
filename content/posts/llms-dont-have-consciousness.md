@@ -3,7 +3,7 @@ title: "Llms Dont Have Consciousness"
 date: 2025-09-10T15:39:51+02:00
 tags: ["AI", "LLM", "Consciousness", "Ethics", "Alignment"]
 preview_image: "https://files.catbox.moe/xefts0.webp"
-draft: true
+draft: false
 ---
 
 ![LLMs don't have consciousness](https://files.catbox.moe/xefts0.webp)
